@@ -1,0 +1,31 @@
+.box {
+  padding: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+}
+.box input {
+  padding: 0.5rem;
+  margin-left: 0.9rem;
+  border-radius: 5px;
+  border: 1px solid #717070;
+  width: 15rem;
+}
+.inputs button {
+  margin-left: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(241, 222, 6, 0.962);
+  padding: 0.1rem 1.5rem 0 1.5rem ;
+  font-size: 15px;
+  text-align: center;
+}
+.inputs button:hover,
+.inputs button:active {
+  background-color: rgba(226, 208, 6, 0.962);
+}

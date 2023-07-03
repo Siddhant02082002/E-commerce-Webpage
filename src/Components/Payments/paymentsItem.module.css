@@ -1,0 +1,85 @@
+.product {
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    font: inherit;
+    border-top: 1px solid #ccc;
+}
+.checkout__left hr{
+    margin-top: 100px;
+}
+.image img{
+    
+    height: 200px;
+    width: 200px
+}
+.product h2{
+    
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.info{
+    font: inherit;
+    display: flex;
+    font-size:20px;
+    padding-left: 1.4rem;
+    flex-direction: column;
+}
+.info__main h2{
+    font: inherit;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+}
+.info__main h3{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.info__shipping{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.info__instock{
+    color: green;
+}
+.info__giftCheckbox{
+    display: flex;
+}
+.info__shipping span{
+    margin-top: 4px;
+}
+.info__shipping img{
+    margin-top: 5px;
+    width: 4rem;
+}
+.info__giftCheckbox input{
+    margin-right: 6px;
+}
+.nav{
+    display: flex;
+    margin-top: 15px;
+}
+.nav button{
+    padding-right: 0.75rem;
+    width: 4rem ;
+    height: 2rem;
+    max-width: 4rem;
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: inherit;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    font-size: 0.75em;
+    text-align: center;
+}
+.nav span{
+    font-size: 13px;
+    margin: 10px;
+    margin-left: 0;
+    padding: 0 1rem;
+    padding-left: 5px;
+    color: #034986;
+    border-right: 1.5px solid;
+}

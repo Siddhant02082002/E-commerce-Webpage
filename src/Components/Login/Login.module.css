@@ -1,0 +1,81 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login img {
+  width: 200px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: -50px;
+}
+.input__container {
+  background-color: white;
+  border-radius: 0.55rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: -3rem;
+  padding: 2rem;
+  text-align: left;
+  max-width: 300px;
+  max-height: 18rem;
+}
+.input__container h1 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.input__container form label {
+  margin-bottom: 2px;
+}
+.input__container form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.input__container form input {
+  width: 18rem;
+  padding: 3px;
+  padding-left: 7px;
+  border-radius: 2px;
+  border: 1px solid #8e8787;
+  margin-bottom: 0.75rem;
+}
+.input__container .login__button {
+  background-color: #f4dc0c;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: 0 solid;
+  font-family: inherit;
+}
+.login__button:hover,
+.login__button:active {
+  background-color: #dfca09;
+}
+.terms_condition{
+  font-size: 13px;
+}
+.input__container h5 {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+.newAmazon {
+  margin-top: 1rem;
+  font-size: 13px;
+}
+
+.create__account {
+  margin-top: 1rem;
+  max-width: 365px;
+  font-family: inherit;
+  font-size: 13px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 365px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.26);
+}

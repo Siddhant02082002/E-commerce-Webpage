@@ -1,0 +1,9 @@
+.box {
+  padding: 1rem;
+  padding-left: 2rem;
+}
+.box input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #717070;
+}

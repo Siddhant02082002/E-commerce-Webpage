@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 1050px;
+}
+.home__image{
+    width:100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.products__container{
+    margin-top: -5rem ;
+}
+.home_row{
+    overflow-x: scroll hidden;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+}
+.byCatagories{
+    margin: auto;
+    z-index: 2px;
+}
+
+.home_col{
+    margin: auto;
+    display: flex;
+    overflow-x:scroll;
+    width: 100vw;
+    margin: 0;
+    padding-left: 0;
+}

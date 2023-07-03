@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useContext} from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./App.css";
+import Home from "./Components/HomePage/Home";
+import Header from "./Components/Header/Header";
+import ShopingCart from "./Components/Shopping/ShoppingCart";
+import CartProvider from "./Store/CartProvider";
+import Login from "./Components/Login/Login";
+import Payments from "./Components/Payments/Payments";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <div>
+        {/* <ProductsAPI apiKey="YOUR_API_KEY" /> */}
+        <Header></Header>
+        <Home />
+      </div>
+    ),
+  },
+  {
+    path: "/checkout",
+    element: (
+      <div>
+        <Header />
+        <ShopingCart/>
+      </div>
+    ),
+  },
+  {
+    path: "/login",
+    element: (
+      <div>
+        <Login />
+      </div>
+    ),
+  },
+  {
+    path: "/payments",
+    element: (
+      <div>
+        <Payments></Payments>
+      </div>
+    ),
+  },
+]);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartProvider>
+        <RouterProvider router={router}></RouterProvider>
+    </CartProvider>
   );
 }
-
 export default App;
